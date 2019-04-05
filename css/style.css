@@ -29,6 +29,10 @@
 			-ms-animation: none !important;
 			animation: none !important;
 		}
+        
+    i {
+        color: red;
+    }
 
 	a {
 		-moz-transition: border-color 0.2s ease-in-out;
@@ -89,11 +93,11 @@
 /* BG */
 
 	#bg {
-		-moz-animation: bg 60s linear infinite;
-		-webkit-animation: bg 60s linear infinite;
-		-o-animation: bg 60s linear infinite;
-		-ms-animation: bg 60s linear infinite;
-		animation: bg 60s linear infinite;
+		-moz-animation: bg 240s linear infinite;
+		-webkit-animation: bg 240s linear infinite;
+		-o-animation: bg 240s linear infinite;
+		-ms-animation: bg 240s linear infinite;
+		animation: bg 240s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-o-backface-visibility: hidden;
@@ -221,7 +225,7 @@
 		} 
 		
 		#header p {
-			font-size: 1.25em;
+			font-size: 1.30em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
 			color:#002147 ;
